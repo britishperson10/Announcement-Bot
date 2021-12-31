@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+#token file
+token.txt
+
+#weird archive stuff?
+*.tar.gz
