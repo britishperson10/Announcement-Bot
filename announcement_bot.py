@@ -155,6 +155,3 @@ async def on_message(message):
 
 
 client.run(token)
-
-# NzUzMjQ0ODAwODE5Mzk2Njcw.X1jX4w.L_Imfdv5MkPAvjEKNTRufYDM1NI
-
