@@ -1,3 +1,4 @@
+#!/bin/python
 import time, os, platform
 from time import sleep as wait 
 from datetime import date
@@ -42,7 +43,7 @@ async def on_message(message):
         log_content= open('commands.log','a+')
         log_content.write(messageCon + '  -  -  -  -  -  ' + str(today) + '\n' + '\n')
         log_content.close()
-        await message.channel.send('<@466814162098454529> does!')
+        await message.channel.send('<@466814162098454529>(Hassan) does!')
 
     if message.content.startswith("Who's the short dick man?"):
         today = date.today()
